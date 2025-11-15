@@ -71,7 +71,7 @@ python main.py
 ---
 
 ## 🎥 Demo Video
-*[(You can paste your YouTube link here once uploaded.)](https://www.youtube.com/shorts/GJT1kfc70aE)*
+*[(Click here to watch the demo video.)](https://www.youtube.com/shorts/GJT1kfc70aE)*
 
 ---
 
