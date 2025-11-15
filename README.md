@@ -44,3 +44,54 @@ The STM32 code listens for UART characters using interrupt mode:
 
 This logic is implemented inside:
 
+
+The firmware immediately re-enables UART interrupt reception so the board continuously listens.
+
+---
+
+## 📁 File Structure
+Hand-tracking-led-control/
+│
+├── main.py # Python hand tracking + UART sending
+├── main.c # STM32 firmware (user code)
+├── README.md # Project documentation
+└── (optional) Images/ # Screenshots or demo pictures
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Python Side
+pip install opencv-python mediapipe pyserial
+python main.py
+
+### 2️⃣ STM32 Side
+- Flash the provided `main.c` (or full project) to your STM32 board  
+- Make sure UART pins match your setup  
+- Baud rate: **115200**
+
+---
+
+## 🔌 Hardware Requirements
+- STM32 development board (ex: STM32F103, STM32F401, Nucleo etc.)  
+- USB-UART connection (or virtual COM via STLink)  
+- 3× LED + resistors  
+
+---
+
+## 🎥 Demo Video
+*[(You can paste your YouTube link here once uploaded.)](https://www.youtube.com/shorts/GJT1kfc70aE)*
+
+---
+
+## 🧠 Future Improvements
+- Gesture recognition instead of fingertip position  
+- Wireless communication (Bluetooth / WiFi)  
+- Controlling servos or motors  
+- Multi-hand support  
+
+---
+
+## 📜 License
+MIT License  
+Feel free to use and modify the project.
