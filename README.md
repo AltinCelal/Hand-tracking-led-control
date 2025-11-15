@@ -49,15 +49,6 @@ The firmware immediately re-enables UART interrupt reception so the board contin
 
 ---
 
-## 📁 File Structure
-Hand-tracking-led-control/
-│
-├── main.py # Python hand tracking + UART sending
-├── main.c # STM32 firmware (user code)
-├── README.md # Project documentation
-└── (optional) Images/ # Screenshots or demo pictures
-
----
 
 ## 🚀 How to Run
 
